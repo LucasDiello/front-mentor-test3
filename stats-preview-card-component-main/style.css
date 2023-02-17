@@ -20,10 +20,13 @@ article{
     justify-content: center;
     align-items: center;
     background-color: hsl(233, 47%, 7%);
+    
 }
 
 .caracteres{
     background-color: hsl(244, 38%, 16%);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     height:450px ;
     flex: 35%;
     /* border: 2px solid blue; */
@@ -84,13 +87,23 @@ article{
     flex: 35%;
     /* border: 2px solid yellow; */
     background-color: hsl(277, 64%, 61%);
-    
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
     z-index: 2;
     margin-right: 15%;
 }
 
 .img1 img{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
     opacity:0.5;
     height: 450px;
     width: 100%;
+}
+
+footer  .attribution{
+    padding-top: 55px;
+    background-color: hsl(233, 47%, 7%);
+    /* border:2px solid red; */
+    height: 68px;
 }
