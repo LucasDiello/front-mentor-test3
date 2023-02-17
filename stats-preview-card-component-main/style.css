@@ -1,0 +1,96 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+article{
+    width: 100%;
+    /* border: 2px solid red; */
+    height: 880px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(233, 47%, 7%);
+}
+
+.caracteres{
+    background-color: hsl(244, 38%, 16%);
+    height:450px ;
+    flex: 35%;
+    /* border: 2px solid blue; */
+    margin-left: 15%;
+    text-align: center;
+}
+
+.caracteres-insights{
+    color: hsl(277, 64%, 61%);
+    font-weight: bold;
+}
+
+.rools{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+    align-items: center;
+    width: 100%;
+    height: 190px;
+    color: white;
+    font-family: sans-serif;
+}
+.rools h3{
+    color: rgb(116, 120, 120);
+}
+
+.companies{
+   /* border: 2px solid green; */
+   flex:33%
+}
+
+.templates{
+    flex: 33%;
+}
+
+.queries{
+    flex:33%
+}
+
+.caracteres h1{
+    font-size: 50px;
+    padding-top: 50px;
+    color: white;
+}
+
+.caracteres p{
+    font-size: 18px;
+    padding-top: 30px;
+    text-align: left;
+    padding-left: 100px;
+    color: rgb(132, 131, 130);
+}
+
+
+
+.img1{
+    height: 450px;
+    flex: 35%;
+    /* border: 2px solid yellow; */
+    background-color: hsl(277, 64%, 61%);
+    
+    z-index: 2;
+    margin-right: 15%;
+}
+
+.img1 img{
+    opacity:0.5;
+    height: 450px;
+    width: 100%;
+}
